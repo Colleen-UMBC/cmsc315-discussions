@@ -110,10 +110,14 @@ def demonstrate_namespaces():
     doc1.director = "Luc Jacquet"
 
     # Display each object's namespace using __dict__
+    # Instance namespace: "Manages attributes specific to an individual object"
+    # Taken from 2.8 of textbook
     print(f"Documentary 1 namespace: {doc1.__dict__}")
     print(f"Documentary 2 namespace: {doc2.__dict__}")
 
     # Display information about the class namespace
+    # Class namespace: "manages members that are to be shared by all instances of a class"
+    # Taken from 2.8 of textbook
     print(f"Class namespace: {Documentary.__dict__}")
 
 
