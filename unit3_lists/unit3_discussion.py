@@ -227,7 +227,7 @@ def main():
 
 
 # ===============================
-# TODO (Student): REAL WORLD SCENARIO
+# REAL WORLD SCENARIO
 # ===============================
 #
 # 5. Create a real-world scenario.
